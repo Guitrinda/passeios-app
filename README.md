@@ -1,116 +1,120 @@
-📍 Places Manager – Angular
+<h1 align="center">📍 Places Manager</h1>
 
-Uma aplicação desenvolvida em Angular (estrutura modular) com foco em aprendizado de arquitetura, autenticação e proteção de rotas.
+<p align="center">
+  Aplicação desenvolvida em <strong>Angular (arquitetura modular)</strong> com foco em autenticação, proteção de rotas e organização de módulos.
+</p>
 
-O sistema permite o gerenciamento de categorias e lugares, incluindo cadastro, listagem com filtros inteligentes e exibição com avaliação visual em estrelas.
+<p align="center">
+  <img src="https://img.shields.io/badge/Angular-Modular-red?logo=angular" />
+  <img src="https://img.shields.io/badge/TypeScript-Strongly%20Typed-blue?logo=typescript" />
+  <img src="https://img.shields.io/badge/TailwindCSS-Styling-38B2AC?logo=tailwindcss" />
+  <img src="https://img.shields.io/badge/Status-Finalizado-success" />
+</p>
 
-🚀 Tecnologias Utilizadas
+---
 
-Angular (arquitetura modular)
+<h2>🚀 Sobre o Projeto</h2>
 
-TypeScript
+<p>
+O <strong>Places Manager</strong> é uma aplicação para gerenciamento de categorias e lugares.
+O sistema conta com autenticação via Google, proteção completa de rotas utilizando Guards,
+cadastro estruturado de dados e exibição em galeria com filtros inteligentes.
+</p>
 
-TailwindCSS (SCSS)
+---
 
-Angular Reactive Forms
+<h2>🔐 Autenticação</h2>
 
-Angular Router
+<ul>
+  <li>Login com Google</li>
+  <li>Service dedicado para autenticação</li>
+  <li>Proteção total de rotas com <strong>Route Guards</strong></li>
+  <li>Bloqueio de navegação para usuários não autenticados</li>
+</ul>
 
-Route Guards
+---
 
-Autenticação com Google
+<h2>📌 Funcionalidades</h2>
 
-HTML
+<h3>📂 Cadastro de Categorias</h3>
+<ul>
+  <li>Criação de categorias para organização dos locais</li>
+</ul>
 
-🔐 Autenticação
+<h3>📍 Cadastro de Lugares</h3>
+<ul>
+  <li>Nome do local</li>
+  <li>Categoria (select dinâmico)</li>
+  <li>URL da imagem</li>
+  <li>Avaliação de 1 a 5</li>
+  <li>Validações obrigatórias nos formulários</li>
+</ul>
 
-Ao acessar o sistema, o usuário é direcionado para a tela de login com Google.
+<h3>🖼️ Galeria</h3>
+<ul>
+  <li>Exibição da imagem via URL informada</li>
+  <li>Nome e categoria</li>
+  <li>Avaliação visual com sistema de estrelas ⭐</li>
+</ul>
 
-A autenticação foi implementada via service dedicado, garantindo:
+<h3>🔎 Filtro Inteligente</h3>
+<p>
+Permite buscar por nome e/ou categoria.<br>
+A pesquisa funciona por correspondência parcial, retornando resultados mesmo ao digitar apenas parte do nome.
+</p>
 
-Controle de sessão
+---
 
-Proteção total de rotas com Guards
+<h2>🎨 Estilização</h2>
 
-Bloqueio de navegação para usuários não autenticados
+<ul>
+  <li>TailwindCSS integrado com SCSS</li>
+  <li>Layout moderno e responsivo</li>
+  <li>Componentização organizada</li>
+</ul>
 
-Todas as rotas da aplicação estão protegidas.
+---
 
-🗂️ Funcionalidades
-📌 Cadastro de Categorias
+<h2>🧠 Objetivo</h2>
 
-Permite cadastrar categorias que serão utilizadas na criação dos lugares.
+<p>
+Projeto desenvolvido com foco em aprendizado e consolidação de conceitos como:
+</p>
 
-📍 Cadastro de Lugares
+<ul>
+  <li>Arquitetura modular no Angular</li>
+  <li>Autenticação com provedores externos</li>
+  <li>Proteção de rotas com Guards</li>
+  <li>Manipulação de formulários reativos</li>
+  <li>Criação de filtros dinâmicos</li>
+</ul>
 
-Ao cadastrar um local, o usuário informa:
+---
 
-Nome
+<h2>▶️ Como executar o projeto</h2>
 
-Categoria (select com categorias já cadastradas)
-
-URL da imagem
-
-Avaliação (1 a 5)
-
-Os formulários possuem validações obrigatórias (required) e feedback visual ao usuário.
-
-🖼️ Galeria de Lugares
-
-A galeria exibe todos os lugares cadastrados com:
-
-Imagem carregada via URL
-
-Nome
-
-Categoria
-
-Avaliação visual com estrelas ⭐
-
-Exemplo:
-Avaliação 4 → ⭐⭐⭐⭐☆
-
-🔎 Filtro Inteligente
-
-Na aba galeria é possível filtrar:
-
-Por nome
-
-Por categoria
-
-Ou ambos
-
-O filtro funciona por correspondência parcial, ou seja, mesmo digitando apenas parte do nome o sistema já encontra o local.
-
-🎨 Estilização
-
-O projeto utiliza TailwindCSS com SCSS, garantindo:
-
-Layout moderno
-
-Componentização limpa
-
-Código organizado
-
-Facilidade de manutenção
-
-
-🧠 Objetivo do Projeto
-
-Este projeto foi desenvolvido com foco em:
-
-Praticar arquitetura modular no Angular
-
-Implementar autenticação com Google
-
-Trabalhar com Guards e controle de acesso
-
-Desenvolver filtros dinâmicos
-
-Criar um sistema simples porém estruturado
-
-▶️ Como Executar
-git clone https://github.com/seuusuario/seurepo.git
-cd seurepo
+<pre>
+git clone https://github.com/seuusuario/seurepositorio.git
+cd seurepositorio
 npm install
 ng serve
+</pre>
+
+<p>Acesse: <strong>http://localhost:4200</strong></p>
+
+---
+
+<h2>📌 Melhorias Futuras</h2>
+
+<ul>
+  <li>Integração com backend real</li>
+  <li>Upload de imagem em vez de URL</li>
+  <li>Paginação na galeria</li>
+  <li>Deploy em ambiente cloud</li>
+</ul>
+
+---
+
+<p align="center">
+  Desenvolvido por <strong>Guilherme Trindade</strong> 🚀
+</p>
