@@ -1,59 +1,116 @@
-# PasseioApp
+📍 Places Manager – Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.1.
+Uma aplicação desenvolvida em Angular (estrutura modular) com foco em aprendizado de arquitetura, autenticação e proteção de rotas.
 
-## Development server
+O sistema permite o gerenciamento de categorias e lugares, incluindo cadastro, listagem com filtros inteligentes e exibição com avaliação visual em estrelas.
 
-To start a local development server, run:
+🚀 Tecnologias Utilizadas
 
-```bash
+Angular (arquitetura modular)
+
+TypeScript
+
+TailwindCSS (SCSS)
+
+Angular Reactive Forms
+
+Angular Router
+
+Route Guards
+
+Autenticação com Google
+
+HTML
+
+🔐 Autenticação
+
+Ao acessar o sistema, o usuário é direcionado para a tela de login com Google.
+
+A autenticação foi implementada via service dedicado, garantindo:
+
+Controle de sessão
+
+Proteção total de rotas com Guards
+
+Bloqueio de navegação para usuários não autenticados
+
+Todas as rotas da aplicação estão protegidas.
+
+🗂️ Funcionalidades
+📌 Cadastro de Categorias
+
+Permite cadastrar categorias que serão utilizadas na criação dos lugares.
+
+📍 Cadastro de Lugares
+
+Ao cadastrar um local, o usuário informa:
+
+Nome
+
+Categoria (select com categorias já cadastradas)
+
+URL da imagem
+
+Avaliação (1 a 5)
+
+Os formulários possuem validações obrigatórias (required) e feedback visual ao usuário.
+
+🖼️ Galeria de Lugares
+
+A galeria exibe todos os lugares cadastrados com:
+
+Imagem carregada via URL
+
+Nome
+
+Categoria
+
+Avaliação visual com estrelas ⭐
+
+Exemplo:
+Avaliação 4 → ⭐⭐⭐⭐☆
+
+🔎 Filtro Inteligente
+
+Na aba galeria é possível filtrar:
+
+Por nome
+
+Por categoria
+
+Ou ambos
+
+O filtro funciona por correspondência parcial, ou seja, mesmo digitando apenas parte do nome o sistema já encontra o local.
+
+🎨 Estilização
+
+O projeto utiliza TailwindCSS com SCSS, garantindo:
+
+Layout moderno
+
+Componentização limpa
+
+Código organizado
+
+Facilidade de manutenção
+
+
+🧠 Objetivo do Projeto
+
+Este projeto foi desenvolvido com foco em:
+
+Praticar arquitetura modular no Angular
+
+Implementar autenticação com Google
+
+Trabalhar com Guards e controle de acesso
+
+Desenvolver filtros dinâmicos
+
+Criar um sistema simples porém estruturado
+
+▶️ Como Executar
+git clone https://github.com/seuusuario/seurepo.git
+cd seurepo
+npm install
 ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
