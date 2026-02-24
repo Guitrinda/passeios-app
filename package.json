@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "server": "json-server ./api/db.json",
+    "server:production": "json-server ./api/db.production.json --port 4000"
   },
   "prettier": {
     "printWidth": 100,
@@ -29,6 +31,7 @@
     "@angular/forms": "^21.0.0",
     "@angular/platform-browser": "^21.0.0",
     "@angular/router": "^21.0.0",
+    "angular-oauth2-oidc": "^19.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"
   },
@@ -36,7 +39,11 @@
     "@angular/build": "^21.0.1",
     "@angular/cli": "^21.0.1",
     "@angular/compiler-cli": "^21.0.0",
+    "autoprefixer": "^10.4.24",
     "jsdom": "^27.1.0",
+    "json-server": "^0.17.4",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.4",
     "typescript": "~5.9.2",
     "vitest": "^4.0.8"
   }

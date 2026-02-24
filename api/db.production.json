@@ -1,0 +1,82 @@
+{
+  "categorias": [
+    {
+      "id": "2",
+      "nome": "Shopping",
+      "descricao": "Lugares para passar raiva"
+    },
+    {
+      "id": "efa1",
+      "nome": "Praia",
+      "descricao": "Lugares para viajar"
+    },
+    {
+      "id": "b1db",
+      "nome": "Corrida",
+      "descricao": "Lugares para correr"
+    },
+    {
+      "nome": "CrossFit",
+      "descricao": "Lugares para treinar",
+      "id": "n3sIoeq"
+    }
+  ],
+  "lugares": [
+    {
+      "id": "ff99",
+      "nome": "Praia do Cumbuco",
+      "categoria": "Praia",
+      "localizacao": "Ceará",
+      "urlFoto": "https://blog.portoseguro.com.br/wordpress/wp-content/uploads/2022/12/praia-paradisiaca-na-bahia.jpg",
+      "avaliacao": "5"
+    },
+    {
+      "id": "1",
+      "nome": "Praia da Enseada",
+      "categoria": "Praia",
+      "localizacao": "Guarujá",
+      "urlFoto": "https://naturam.com.br/wp-content/uploads/2020/07/12-praia-das-pitangueiras-guaruja-naturam.jpg",
+      "avaliacao": "1"
+    },
+    {
+      "id": "919c",
+      "nome": "Mauá Plaza",
+      "categoria": "Shopping",
+      "localizacao": "Mauá - SP",
+      "urlFoto": "https://revistalivemarketing.com.br/wp-content/uploads/2022/04/Maua-Plaza-Shopping-sorteia-uma-viagem-ao-Qatar-e-mais-dezenove-premios-em-homenagem-aos-seus-20-anos-scaled-1024x576.jpg",
+      "avaliacao": "1"
+    },
+    {
+      "nome": "Parque Central",
+      "categoria": "Corrida",
+      "localizacao": "Santo André",
+      "urlFoto": "https://www3.santoandre.sp.gov.br/turismosantoandre/wp-content/uploads/2019/09/Parque-Central-Julio-Bastos-PSA-2-768x513.jpg",
+      "avaliacao": "5",
+      "id": "Ww3vjLD"
+    },
+    {
+      "nome": "Ciclovia",
+      "categoria": "Corrida",
+      "localizacao": "Mauá - SP",
+      "urlFoto": "https://pocosdecaldas.mg.gov.br/wp-content/uploads/2022/02/ciclovia-inauguracao-2-1024x751.jpg",
+      "avaliacao": "3",
+      "id": "8xF1bIO"
+    },
+    {
+      "nome": "NL Crossbox",
+      "categoria": "CrossFit",
+      "localizacao": "Mauá - SP",
+      "urlFoto": "https://tse2.mm.bing.net/th/id/OIP.vo8VCvtlQv1-KiMHcHFMlgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "avaliacao": "5",
+      "id": "MtqjP27"
+    },
+    {
+      "nome": "Galatas",
+      "categoria": "CrossFit",
+      "localizacao": "Mauá - SP",
+      "urlFoto": "https://tse2.mm.bing.net/th/id/OIP.wZaH_FL_ucgJXJyAKt5GiwHaLH?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "avaliacao": "2",
+      "id": "jttAAqT"
+    }
+  ]
+}
